@@ -6,7 +6,7 @@
 
 <script>
 import L from "leaflet"
-import "tf-leaflet-editble-polyline"
+import "tf-leaflet-editable-polyline"
 
 export default {
   name: "LEditablePolyline",
