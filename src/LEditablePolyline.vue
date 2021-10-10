@@ -47,11 +47,17 @@ export default {
       // это нужно для отслеживания событий
       let options = Object.assign({ uid: this._uid }, this.options)
 
+      let defaultPoint = L.icon({
+        iconUrl: require("./assets/point.svg"),
+        iconSize: [15, 15],
+        iconAnchor: [7.5, 7.5]
+      })
+
       if (!options.pointIcon) {
-        options.pointIcon = this.$consts.ICON_POINT_DEFAULT
+        options.pointIcon = defaultPoint
       }
       if (!options.newPointIcon) {
-        options.pointIcon = this.$consts.ICON_POINT_DEFAULT
+        options.pointIcon = defaultPoint
       }
 
       return options

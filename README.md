@@ -1,24 +1,19 @@
-# tf-vue-leaflet-editable-polyline
+# tf-leaflet-editable-polyline
 
-## Project setup
-```
-npm install
-```
+editable-polyline for leaflet
 
-### Compiles and hot-reloads for development
+## Install
+
 ```
-npm run serve
+npm install tf-leaflet-editable-polyline
 ```
 
-### Compiles and minifies for production
+## Usage
+
 ```
-npm run build
+import "tf-leaflet-editable-polyline"
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+L.Polyline.PolylineEditor(points, options)
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
