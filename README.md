@@ -11,11 +11,11 @@ npm install tf-vue-leaflet-editable-polyline
 ## Usage
 
 ```
-import EditablePolyline from "tf-vue-leaflet-editable-polyline"
+import LEditablePolyline from "tf-vue-leaflet-editable-polyline"
 ```
 
 ```
-<editable-polyline
+<l-editable-polyline
     :points="points"
     :options="options"
     @ready="onReady"
@@ -25,7 +25,7 @@ import EditablePolyline from "tf-vue-leaflet-editable-polyline"
 ```
 
 ```
-components: { EditablePolyline }
+components: { LEditablePolyline }
 ```
 
 ## Options
