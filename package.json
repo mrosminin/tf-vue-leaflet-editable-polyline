@@ -1,6 +1,6 @@
 {
   "name": "tf-vue-leaflet-editable-polyline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue2 leaflet editable polyline",
   "author": {
     "name": "mrosminin"
